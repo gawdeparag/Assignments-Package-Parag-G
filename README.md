@@ -1,5 +1,5 @@
 # Assignments-Package-Parag-G
 
-## 1. HTML Assignments
+## 1. CSS Assignments
 
 ## 4. Git Assignments
