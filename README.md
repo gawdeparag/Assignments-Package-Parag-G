@@ -1,5 +1,10 @@
 # Assignments-Package-Parag-G
-## 1. HTML Assignments
-## 2. CSS Assignments
-## 3. JS Assignments
-## 4. Git Assignments
+## 1. Git and Github Assignments
+### |--- /code-files/
+### |--- Assignment-A1
+### |--- Assignment-A2 
+### |--- Assignment-A3
+
+## 2. MongoDB Assignments
+
+## README.md
