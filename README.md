@@ -1,4 +1,4 @@
-# Assignments-Package-Parag-G
+# Assignments-Parag-G
 ## 1. Git and Github Assignments
 ### |--- /code-files/
 ### |--- Assignment-A1
