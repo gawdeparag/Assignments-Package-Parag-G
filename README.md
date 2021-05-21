@@ -1,9 +1,18 @@
 # Assignments-Parag-G
 ## 1. Git and Github Assignments
-### |--- /code-files/
-### |--- Assignment-A1
-### |--- Assignment-A2 
-### |--- Assignment-A3
+```
+.
+├── ...
+├── Assignment-1  
+├── Assignment-2
+├── Assignment-3
+└── code-files/
+    ├── app.js 
+    ├── index.css 
+    └── index.html
+    └── ...
+
+```
 
 ## 2. MongoDB Assignments
 
