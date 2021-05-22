@@ -15,5 +15,12 @@
 ```
 
 ## 2. MongoDB Assignments
+```
+├── ...
+├── mongo-db-assignment-1
+├── mongo-db-assignment-2
+└── mongo-db-assignment-3
+```
+## 3. HTML-CSS Assignments
 
 ## README.md
