@@ -22,5 +22,13 @@
 └── mongo-db-assignment-3
 ```
 ## 3. HTML-CSS Assignments
+```
+├── ...
+└── html-assignments/
+    ├── question-1.html
+    ├── question-2.html
+    └── question-3.html
+    └── ...
+```
 
 ## README.md
