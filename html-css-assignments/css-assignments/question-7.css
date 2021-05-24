@@ -1,0 +1,6 @@
+.note {
+    border: 3px dotted green;
+}
+.inside {
+    border: 1px solid red;
+}
