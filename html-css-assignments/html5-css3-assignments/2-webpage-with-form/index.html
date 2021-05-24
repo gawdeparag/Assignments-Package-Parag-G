@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Webpage with Form</title>
+</head>
+
+<body>
+    <div class="background">
+        <div class="form">
+            <h1 class="col-lg-12">Survey/Feedback Form for this course</h1>
+            <h4 class="text-center">Thank you for taking the time to help us improve and provide the best</h4>
+            <form class="alignment form-group">
+                <div class="input-pad">
+                    <label for="Name" class="col-lg-4">Enter your name </label>
+                    <input type="text" name="Name" class="col-lg-5">
+                </div>
+
+                <div class="input-pad">
+                    <label for="Number" class="col-lg-4">Enter your phone number </label>
+                    <input type="tel" name="Number" class="col-lg-5">
+                </div>
+
+                <div id="birthDate" class="input-pad">
+                    <label for="dob" class="col-lg-4">Enter your Date of Birth </label>
+                    <input type="date" name="dob" class="col-lg-5">
+                </div>
+
+                <div id="Age" class="input-pad">
+                    <label for="age" class="col-lg-4">Your Age </label>
+                    <input type="number" name="age" class="col-lg-5">
+                </div>
+
+                <div class="input-pad">
+                    <label for="doa" class="col-lg-4">Enter your Date of Admission </label>
+                    <input type="date" name="doa" class="col-lg-5">
+                </div>
+
+                <div class="input-pad">
+                    <label for="email" class="col-lg-4">Enter your Email Address </label>
+                    <input type="email" name="email" class="col-lg-5" required>
+                </div>
+
+                <div id="first-radio" class="col-lg-12">
+                    <legend for="Review">Please Rate the teaching facility</legend>
+                    <input type="radio" name="Teach">Excellent
+                    <br>
+                    <input type="radio" name="Teach">Very Good
+                    <br>
+                    <input type="radio" name="Teach">Good
+                    <br>
+                    <input type="radio" name="Teach">Fair
+                </div>
+
+                <div class="col-lg-12">
+                    <legend for="Review">Is the Duration sufficient?</legend>
+                    <input type="radio" name="Duration">Excellent
+                    <br>
+                    <input type="radio" name="Duration">Very Good
+                    <br>
+                    <input type="radio" name="Duration">Good
+                    <br>
+                    <input type="radio" name="Duration">Fair
+                </div>
+
+                <div class="col-lg-12">
+                    <legend for="Review">Is the Infrastructure adequate?</legend>
+                    <input type="radio" name="Infra">Excellent
+                    <br>
+                    <input type="radio" name="Infra">Very Good
+                    <br>
+                    <input type="radio" name="Infra">Good
+                    <br>
+                    <input type="radio" name="Infra">Fair
+                </div>
+
+                <div class="col-lg-12">
+                    <legend for="Review">Is the Management upto date?</legend>
+                    <input type="radio" name="Manage">Excellent
+                    <br>
+                    <input type="radio" name="Manage">Very Good
+                    <br>
+                    <input type="radio" name="Manage">Good
+                    <br>
+                    <input type="radio" name="Manage">Fair
+                </div>
+
+                <div class="col-lg-12">
+                    <legend for="Comments">Any Additional Suggestions? </legend>
+                    <textarea class="form-control"> </textarea>
+                </div>
+
+                <div class="text-center col-lg-12">
+                    <input type="submit" class="btn btn-primary">
+                </div>
+            </form>
+        </div>
+        <footer class="text-center">
+            <cite>
+                This Feedback form is coded by <a href="#" target="_blank">Parag G</a>.
+                <br>
+                &#169; Copyright 2021
+            </cite>
+        </footer>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.background {
+    background-color: lightblue;
+    padding: 3% 2% 3% 2%;
+}
+
+h1 {
+    text-align: center;
+}
+
+@media only screen and (max-width: 320px) {
+    h1 {
+        font-size: 150%;
+    }
+}
+
+.alignment {
+    align-content: center;
+    padding: 3% 2% 3% 2%;
+}
+
+.form {
+    background-color: white;
+    padding: 2% 0 2% 0;
+    box-shadow: 5px 5px 20px #555;
+}
+
+.input-pad {
+    padding-bottom: 10px;
+}
+
+.col-lg-12 {
+    padding-bottom: 10px;
+}
+
+#first-radio {
+    padding-top: 10px;
+}
+
+.text-center {
+    margin-top: 10px;
+}
+
+textarea {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    resize: horizontal;
+    overflow: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    padding-top: 8px;
+}
