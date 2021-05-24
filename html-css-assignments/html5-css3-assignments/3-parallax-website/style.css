@@ -1,0 +1,91 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 1.5em;
+    color: #666666;
+}
+
+.bgimg1,
+.bgimg2,
+.bgimg3,
+.bgimg4 {
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.bgimg1 {
+    background-image: url('https://bit.ly/3wvFjQ4');
+    height: 100%;
+}
+
+.bgimg2 {
+    background-image: url('https://bit.ly/3fExgd3');
+    min-height: 400px;
+}
+
+.bgimg3 {
+    background-image: url('https://bit.ly/3wrTPZa');
+    min-height: 400px;
+}
+
+.bgimg4 {
+    background-image: url('https://bit.ly/3uaLfws');
+    min-height: 400px;
+}
+
+.section {
+    text-align: center;
+    padding: 80px 50px;
+}
+
+.section-light {
+    background-color: white;
+    color: #666;
+}
+
+.section-dark {
+    background-color: #282e34;
+    color: #ddd;
+}
+
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.ptext .border {
+    background-color: #111111;
+    color: #fff;
+    padding: 20px;
+}
+
+.ptext .border .trans {
+    background-color: transparent;
+}
+
+@media(max-width: 600px) {
+    .bgimg1,
+    .bgimg2,
+    .bgimg3,
+    .bgimg4 {
+        background-attachment: scroll;
+    }
+}
+
+a {
+    text-decoration: none;
+}
