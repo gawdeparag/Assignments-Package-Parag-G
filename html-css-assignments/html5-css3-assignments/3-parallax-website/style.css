@@ -71,6 +71,7 @@ html {
     background-color: #111111;
     color: #fff;
     padding: 20px;
+    border-radius: 25px;
 }
 
 .ptext .border .trans {
