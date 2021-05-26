@@ -1,0 +1,70 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+li h1 {
+    font-weight: 900;
+}
+
+header {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.sidenav {
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    padding: 0;
+    text-align: center;
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+}
+
+.navbar li {
+    list-style: none;
+}
+
+.sidenav a:hover {
+    color: blue;
+}
+
+.main {
+    margin-left: 300px;
+    padding: 25px 10px;
+}
+
+@media only screen and (max-width: 500px) {
+    .sidenav {
+        position: sticky;
+        top: 0;
+        padding-top: 5px;
+        width: 100%;
+        height: fit-content;
+        border: none;
+        text-align: center;
+        display: block;
+    }
+    .sidenav ul li a {
+        text-align: center;
+        font-size: 18px;
+    }
+    .main {
+        position: relative;
+        margin-left: 0px;
+    }
+}
