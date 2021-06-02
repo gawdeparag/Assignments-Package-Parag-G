@@ -1,1 +1,5 @@
 *.txt
+*.bat
+.vscode/
+tsconfig.json
+scripts/
