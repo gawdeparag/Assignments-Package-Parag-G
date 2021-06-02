@@ -13,11 +13,17 @@ function composedValue(f1, f2, x) {
 console.log("Composed Value: ", composedValue(square, double, 10));
 
 //2. Make a function called compose that takes ...... each take exactly one argument.
-// !! INCOMPLETE !!
-function compose(f1, f2) {
-    return f1(f2());
+function compose(f, g) {
+    return function(x) {
+        return f(g(x));
+    };
 }
-console.log(typeof(compose(square, double)));
+var f1 = compose(square, double);
+console.log(f1(5));
+console.log(f1(10));
+var f2 = compose(double, square);
+console.log(f2(5));
+console.log(f2(10));
 
 //3. Make a function called "find" that takes ...... Don't use map, filter or reduce.
 function isEven(num) {
