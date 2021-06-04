@@ -3,3 +3,4 @@
 .vscode/
 tsconfig.json
 scripts/
+node_modules/
