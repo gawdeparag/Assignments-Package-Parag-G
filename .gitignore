@@ -1,4 +1,6 @@
-*.txt
+mongo-db-assignments/*.txt
+html-css-assignments/*.txt
+es6-typescript-assignments/*.txt
 *.bat
 .vscode/
 tsconfig.json
