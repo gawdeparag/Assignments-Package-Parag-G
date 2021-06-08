@@ -52,7 +52,6 @@ let getArmstrongNumber = () => {
 
         }
     }
-
 }
 // let higherLimit = parseInt(prompt("Enter a upper limit: "));
 let higherLimit = 1000;
