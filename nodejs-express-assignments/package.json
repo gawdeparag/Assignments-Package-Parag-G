@@ -1,0 +1,22 @@
+{
+    "name": "nodejs-express-assignments",
+    "version": "1.0.0",
+    "description": "For Node-js and Express Assignments",
+    "main": "index.js",
+    "scripts": {
+        "start": "node ./nodejs-assignments/main.js",
+        "test": "nodemon /expressjs-assignments/main.js"
+    },
+    "author": "Parag G",
+    "license": "MIT",
+    "devDependencies": {
+        "nodemon": "^2.0.7"
+    },
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "express": "^4.17.1",
+        "moment": "^2.29.1",
+        "pug": "^3.0.2",
+        "strftime": "^0.10.0"
+    }
+}
