@@ -9,11 +9,11 @@ console.log("Success, I'm listening from port: 3000");
 
 //2. Show Content: Write a node program that ...... console the content of it.
 var fs = require("fs");
-// var fileName = process.argv[2];
-// fs.readFile(fileName, "utf8", (err, data) => {
-//     if (err) throw err;
-//     console.log(data);
-// });
+var fileName = process.argv[2];
+fs.readFile(fileName, "utf8", (err, data) => {
+    if (err) throw err;
+    console.log(data);
+});
 
 //3. File List: Write a nodeJS program that ...... indicating if it is a directory or a file.
 const path = require("path");
@@ -43,11 +43,17 @@ fs.readFile('test.txt', 'utf8', (err, data) => {
     }
 });
 
-//7.
+//7. Show hour: Write a nodeJS program that shows you the local hour of server.
+var strftime = require('strftime');
+console.log(strftime('%B %d, %Y %H:%M:%S'));
 
-//8.
-
-//9.
+//9. Write a node program that process local txt and returns values as a Array.
+var fs = require('fs');
+fs.readFile('answer-nine.txt', 'utf8', function(err, data) {
+    if (err) throw err;
+    var data = data.split(' ');
+    console.log(data);
+});
 
 //10. Write a nodeJS program that creates a txt file with the text passed as a parameter.
 var text = process.argv[2];
