@@ -88,5 +88,6 @@ app.delete('/inventory/:name', (req, res) => {
 });
 
 var PORT = 8081;
-app.listen(PORT);
-console.log(`Server started at ${PORT}`);
+app.listen(PORT, () => {
+    console.log(`Server started at ${PORT}`);
+});
